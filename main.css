@@ -1,6 +1,7 @@
 body {
   border: 1px solid black;
   max-width: 100%;
+  max-height: 100%;
   position:relative;
 }
 
@@ -55,8 +56,48 @@ body {
 
 .coverPhoto p {
   margin:0 0 0 0;
+}
+/* <!-- ================================================== --> */
+.personalPlan, .smallBusinessPlan, .enterprisePlan{
+  display:inline-block;
+}
+.personalSquare{
+  background-color: #4F934E;
+  width:100px;
+  height:100px;
+  overflow: hidden;
+}
 
+.smallBusinessSquare{
+  background-color: #4F934E;
+  width:100px;
+  height:100px;
+  overflow: hidden;
+}
+
+.enterpriseSquare{
+  background-color: #4F934E;
+  width:100px;
+  height:100px;
 }
 
 
+.personal{
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
 
+.fiveDollars {
+  display: inline-block;
+  margin:0;
+  width:100%;
+  padding: 0;
+  text-align: center;
+}
+
+.perMonth {
+  margin:0;
+  width: 100%;
+  text-align: center;
+}
