@@ -1,7 +1,6 @@
 body {
   border: 1px solid black;
-  max-width: 100%;
-  max-height: 100%;
+  width: 1350px;
   position:relative;
 }
 
@@ -44,7 +43,7 @@ body {
   max-width: 100%;
   height:200px;
   margin:0;
-  padding:100px 0 100px 200px;
+  padding:100px 100px 100px 200px;
   
   background-size: 100%;
   background-repeat: no-repeat;
@@ -53,32 +52,41 @@ body {
   color:#fff;
   font-size: 3em;
   }
-
+.simplePricing {
+  padding-top: 50px;
+}
 .coverPhoto p {
   margin:0 0 0 0;
+  text-shadow: -1px -1px 2px black; ;
 }
 /* <!-- ================================================== --> */
+
+.threeColumns{
+  width: 100%;
+  margin:0;
+  padding:50px 184px 0 184px;
+}
 .personalPlan, .smallBusinessPlan, .enterprisePlan{
   display:inline-block;
+  padding-right: 10px;
 }
-.personalSquare{
-  background-color: #4F934E;
-  width:100px;
+.personalSquare, .smallBusinessSquare, .enterpriseSquare{
+  width:310px;
   height:100px;
   overflow: hidden;
+  color: white;
+}
+
+.personalSquare{
+background-color: #4F934E;
 }
 
 .smallBusinessSquare{
-  background-color: #4F934E;
-  width:100px;
-  height:100px;
-  overflow: hidden;
+  background-color: #2A4787;
 }
 
 .enterpriseSquare{
-  background-color: #4F934E;
-  width:100px;
-  height:100px;
+  background-color: #101010;
 }
 
 
@@ -88,7 +96,7 @@ body {
   text-align: center;
 }
 
-.fiveDollars {
+.fiveDollars, .fourtyFiveDollars, .twentyFiveDollars {
   display: inline-block;
   margin:0;
   width:100%;
@@ -101,3 +109,28 @@ body {
   width: 100%;
   text-align: center;
 }
+
+button {
+  border-radius: 28px;
+  border-size: 1px;
+  background-color: white;
+}
+
+/* <!-- =================Footer================================= --> */
+footer{
+  width:100%;
+  background-color: black;
+}
+
+.footertext a{
+  color:#DDDDDD;
+}
+
+.footertext{
+  width:100%;
+  display:inline-block;
+  text-align: center;
+  padding:10px 0 10px 0;
+  color: #888888;
+}
+
