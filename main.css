@@ -4,12 +4,15 @@ body {
   position:relative;
 }
 
+/*=============header==============*/
+
 .yourlogo {
-  font-size: 16px;
-  color: #777D83;
+  font-size: 20px;
+  color: red;
   display:inline-block;
   padding:10px 32px 6px 11px;
   vertical-align: middle;
+  font-family: 'Pacifico';
 }
 
 .navigation {
@@ -18,6 +21,7 @@ body {
   padding: 0;
   font-size:12px;
   display: inline-block;
+  font-family: 'Quicksand', cursive;
 }
 
  .navigation li {
@@ -34,9 +38,10 @@ body {
 
  .pricing a {
   color: black;
+  text-shadow:-1px -1px 2px black;
  }
 
-/* <!-- ================================================== --> */
+/* <!-- ==============cover photo==================================== --> */
 
 .coverPhoto {
   background-image: url("background.jpg");
@@ -50,82 +55,135 @@ body {
   text-align: center;
   
   color:#fff;
-  font-size: 3em;
+  font-size: 4em;
+  font-family: 'Quicksand',cursive;
+  vertical-align: middle;
   }
-.simplePricing {
-  padding-top: 50px;
-}
+
+  .text{
+    vertical-align: middle;
+  }
 .coverPhoto p {
   margin:0 0 0 0;
-  text-shadow: -1px -1px 2px black; ;
+  text-shadow: -1px -1px 2px black;
+  padding-right: 100px;
 }
-/* <!-- ================================================== --> */
+/* <!-- ===================Three column section=============================== --> */
+
 
 .threeColumns{
   width: 100%;
   margin:0;
   padding:50px 184px 0 184px;
+  font-family: 'Quicksand', sans-serif;
 }
-.personalPlan, .smallBusinessPlan, .enterprisePlan{
+.threeColumns ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.threeColumns li {
+  text-align: center;
+  vertical-align: middle;
+}
+.personalFeatures li, .smallBusinessFeatures li, .enterpriseFeatures li{
+  border: .1em solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.personalFeatures ul, .smallBusinessFeatures ul, .enterpriseFeatures ul{
+  background-color:#F7F7F7;
+}
+.plan{
   display:inline-block;
   padding-right: 10px;
 }
-.personalSquare, .smallBusinessSquare, .enterpriseSquare{
+.personalSquare, .smallBusinessSquare, .enterpriseSquare {
   width:310px;
-  height:100px;
+  height:210px;
   overflow: hidden;
   color: white;
+  font-size: 21px;
+  vertical-align: middle;
 }
-
 .personalSquare{
 background-color: #4F934E;
 }
-
 .smallBusinessSquare{
   background-color: #2A4787;
 }
-
 .enterpriseSquare{
   background-color: #101010;
 }
-
-
-.personal{
-  margin: 0;
-  width: 100%;
-  text-align: center;
+.planTitle {
+  padding-top: 30px;
 }
-
-.fiveDollars, .fourtyFiveDollars, .twentyFiveDollars {
+.money {
   display: inline-block;
   margin:0;
   width:100%;
   padding: 0;
   text-align: center;
+  font-size: 100px;
 }
-
 .perMonth {
   margin:0;
   width: 100%;
   text-align: center;
+  opacity: .6;
+  padding:0;
 }
-
+.button{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
 button {
   border-radius: 28px;
   border-size: 1px;
   background-color: white;
 }
+button:hover{
+ background-color: #C8C854;
+ text-shadow: -1px -1px 2px black;
+}
+/* <!-- =================two column section================================= --> */
 
-/* <!-- =================Footer================================= --> */
-footer{
-  width:100%;
-  background-color: black;
+.twoColumnContainer {
+  margin: 0;
+  padding:0 184px 0 220px;
 }
 
+.getStartedToday, .payMonthlyOrAnnually, .customerSupport, .cancel {
+  width: 400px;
+  display: inline-block;
+}
+
+.payMonthlyOrAnnually, .cancel{
+  padding-left:110px;
+}
+.twoColumnContainer{
+font-family: 'Quicksand';
+}
+
+h1{
+  font-family: 'Quicksand', cursive;
+  font-size: 140%;
+  font-weight: bolder;
+  text-shadow: -1px -1px 2px black;
+}
+
+
+
+/* <!-- =================Footer================================= --> */
+footer {
+  width:100%;
+  background-color: black;
+  font-family: 'Quicksand';
+}
 .footertext a{
   color:#DDDDDD;
 }
-
 .footertext{
   width:100%;
   display:inline-block;
