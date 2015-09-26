@@ -41,7 +41,6 @@ body {
 /* <!-- ==============cover photo==================================== --> */
 .background{
   width:100%;
-  height: 450px;
 }
 
 .coverPhoto {
@@ -52,14 +51,14 @@ body {
   background-size: 100%;
   overflow:hidden;
   color:#fff;
-  font-size: 300%;
+  font-size: 350%;
   font-family: 'Quicksand',cursive;
   text-align: center;
   vertical-align: middle;
   }
 
   .coverPhotoText{
-  padding: 100px 0 100px 0;
+  padding: 180px 0 180px 0;
   text-align: center;
 
   }
@@ -144,7 +143,8 @@ button {
   background-color: white;
 }
 button:hover{
- background-color:#5BCFE8;
+ background-color:#F7F7F7;
+ color:white;
  text-shadow: -1px -1px 2px black;
 }
 /* <!-- =================two column section================================= --> */
