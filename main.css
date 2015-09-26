@@ -1,11 +1,8 @@
 body {
-  border: 1px solid black;
-  width: 1350px;
-  position:relative;
+  width: 100%;
 }
 
 /*=============header==============*/
-
 .yourlogo {
   font-size: 20px;
   color: red;
@@ -42,39 +39,42 @@ body {
  }
 
 /* <!-- ==============cover photo==================================== --> */
+.background{
+  width:100%;
+  height: 450px;
+}
 
 .coverPhoto {
   background-image: url("background.jpg");
-  max-width: 100%;
-  height:200px;
-  margin:0;
-  padding:100px 100px 100px 200px;
-  
-  background-size: 100%;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
-  text-align: center;
-  
+  background-size: 100%;
+  overflow:hidden;
   color:#fff;
-  font-size: 4em;
+  font-size: 300%;
   font-family: 'Quicksand',cursive;
+  text-align: center;
   vertical-align: middle;
   }
 
-  .text{
-    vertical-align: middle;
+  .coverPhotoText{
+  padding: 100px 0 100px 0;
+  text-align: center;
+
   }
+
 .coverPhoto p {
   margin:0 0 0 0;
   text-shadow: -1px -1px 2px black;
-  padding-right: 100px;
 }
 /* <!-- ===================Three column section=============================== --> */
 
 
 .threeColumns{
   width: 100%;
-  margin:0;
-  padding:50px 184px 0 184px;
+  text-align: center;
+  padding-top: 50px;
   font-family: 'Quicksand', sans-serif;
 }
 .threeColumns ul{
@@ -144,14 +144,16 @@ button {
   background-color: white;
 }
 button:hover{
- background-color: #C8C854;
+ background-color:#5BCFE8;
  text-shadow: -1px -1px 2px black;
 }
 /* <!-- =================two column section================================= --> */
 
 .twoColumnContainer {
-  margin: 0;
-  padding:0 184px 0 220px;
+  text-align: center;
+  font-family: 'Quicksand', cursive;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .getStartedToday, .payMonthlyOrAnnually, .customerSupport, .cancel {
@@ -161,9 +163,6 @@ button:hover{
 
 .payMonthlyOrAnnually, .cancel{
   padding-left:110px;
-}
-.twoColumnContainer{
-font-family: 'Quicksand';
 }
 
 h1{
@@ -192,3 +191,7 @@ footer {
   color: #888888;
 }
 
+.contentwrapper{
+  padding-left: 50px;
+  padding-right: 50px;
+}
